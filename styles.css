@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fcce93 !important;
+}
+
+nav{
+    padding: 0.5vw 0.5vw;
+    background-color: #bd9a0a;
+}
+
+.logo{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #3d3d3d;
+    border-bottom: 0.25vw #f6c80d solid;
+    border-radius: 0.2vw;
+}
+
+.logo:hover{
+    color: #1a1a1a;
+}
+
+.main-menu{
+    list-style: none;
+}
+
+.main-menu li{
+    padding: 1vw 1vw;
+    display: inline-block;
+}
+
+.main-menu li a{
+    display: inline-block;
+    padding: 0.45vw 0 0 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-left: 1vw;
+}
+
+
+.main-menu li a:after{
+    display:block;
+    content: "";
+    border-bottom: 0.25vw #f6c80d solid;
+    border-radius: 0.2vw;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+.main-menu li a:hover:after{
+    transform: scaleX(1);
+}
+
+form{
+    padding: 1vh 1vw;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+input{
+    border: none;
+    border-bottom: 0.25vw #f6c80d solid;
+    border-radius: 0.2vw;
+    margin-top: 1vh !important;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea{
+    text-indent: 0.2vw;
+    padding: 0.2vw;
+    border: none;
+    border-bottom: 0.25vw #f6c80d solid;
+    border-radius: 0.2vw;
+    margin-top: 1vh !important;
+}
+
+textarea::placeholder{
+    padding: 0.2vw;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.login{
+    font-size: 1vw;
+    padding: 0.15vw 2vw;
+    background-color: #f6c80d;
+    border: 0.25vw #f6c80d solid;
+    margin-top: 1vh !important;
+    margin-bottom: 1.5vh !important;
+    transition: 225ms;
+    color: #3d3d3d;
+}
+
+.login:hover{
+   color: #fff;
+   background-color: #bd9a0a;
+   border: 0.25vw #bd9a0a solid;
+   transition: 0.22s;
+}
+
+.signup{
+    padding: 0.15vw 0.25vw;
+    background-color: transparent;
+    border: 0.25vw #f6c80d solid;
+    color: #bd9a0a;
+    text-decoration: none;
+    transition: 225ms;
+}
+
+.signup:hover{
+    color: #fff;
+    background-color: #bd9a0a;
+}
+
+.sign-up{
+    padding: 0.15vw 1vw !important;
+}
+
+.sweetmsg{
+    display: inline-block;
+    text-align: center;
+    margin-top: 2vw;
+    background-color: #FFFFBE;
+    border-radius: 10vw;
+    color: #fcd700;
+    font-size: 2vw;
+    padding: 1vw;
+    margin-left: 2vw;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 32vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw !important;
+}
+
+.warning{
+    background-color: red;
+    color: white;
+    font-size: 1.8vh;
+    padding: 0.5vw;
+    display: inline-block;
+    text-align: center;
+}
+
+.g{
+    margin-top: 0.5vw !important;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 0.5vw !important;
+}
+
+.table{
+    margin-top: 13.5vw;
+}
+
+.delete{
+    color: #1a1a1a;
+    text-decoration: none;
+    border: solid 0.15vw #1a1a1a;
+}
+
+.post-inner{
+    padding: 1vw;
+    margin-top: 2vw;
+    background-color: rgba(246, 200, 13, 0.53);
+}
+
+.post-inner h2{
+    font-size: 0.85vw;
+    text-align: right;
+}
+
+.post-inner h1{
+    text-align: center;
+}
+
+.post-inner p{
+    font-size: 1vw;
+}
+
+.post_image{
+    width: 100%;
+    max-width: 10vw;
+    height: auto;
+}
+
+.edit_image{
+    width: 100%;
+    max-width: 5vw;
+    height: auto;
+}
+
+.com_form{
+    margin: 0 !important;
+}
+.comments{
+    padding: 0.5vw;
+    margin: 1vw;
+    background-color: #fcce93;
+}
+
+.admin_user {
+    animation: color-change 2.5s infinite;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: blue; }
+}
+#cart{
+    margin-left: 0.2vw;
+    font-size: 1.1vw;
+    color: #3d3d3d;
+}
+.new_title{
+    color: #1a1a1a;
+    font-size: 1.5vw;
+    padding: 0.2vw;
+    border: 0.15vw solid #3d3d3d;
+}
+
+.continue{
+    color: #222;
+    margin-top: 1vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fcd700;
+    padding: 0.5vw 1vw;
+    transition: 0.20s;
+}
+.continue:hover{
+    color: #222;
+    border: 0.22vw solid #f6c80d;
+}
+.obj{
+    font-size: 1vw;
+}
+
+footer {
+    margin-top: 2vw;
+    padding: 0.5vw 0;
+    background-color: #bd9a0a;
+}
+
+.copy{
+    font-size: 2vw;
+    background-color: #fcce93;
+    color: #222;
+    margin: 0;
+    padding: 0.5vw 0.5vw;
+}
+
